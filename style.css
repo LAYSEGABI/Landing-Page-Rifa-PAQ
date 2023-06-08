@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0C0C18;
+    color: white;
+    width: 100%;
+    font-family: 'Archivo', sans-serif;
+}
+
+.img {
+    width: 100%;
+}
+
+.header {
+    background-color: rgb(39, 65, 87);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5em 2em;
+    align-items: center;
+}
+.logo-paq {
+    width: 3em;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.banner {
+    display: flex;
+    background: url('img/honeycomb_volume_iron_167098_3840x2160\ 1.png');
+    height: 95vh;
+}
+
+.banner-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo-descricao {
+    width: 80%;
+}
+
+.titulo-descricao span {
+    color: #08A0D0;
+}
+
+.banner-conteudo img {
+    width: 100%;
+}
+
+.butao-participe {
+    text-decoration: none;
+    background-color: #08A0D0;
+    border-radius: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.7em 1.6em;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: -2em;
+}
