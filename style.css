@@ -18,6 +18,24 @@ body {
     width: 100%;
 }
 
+/* Scrollbar personalizada */
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(0, 1, 15);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(29, 131, 199);
+    border-radius: 5px;
+}
+
+
+/* header----------------------------------*/
+
 .header {
     background-color: rgb(39, 65, 87);
     display: flex;
@@ -30,11 +48,28 @@ body {
     width: 3em;
 }
 
+.nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
 .nav a {
     text-decoration: none;
     color: white;
 }
 
+.butao-participe-header {
+    text-decoration: none;
+    background-color: #08A0D0;
+    border-radius: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.7em;
+    color: white;
+    font-weight: bold;
+}
+
+/* banner--------------------------------*/
 
 .banner {
     display: flex;
@@ -73,4 +108,31 @@ body {
     font-size: 1.4em;
     font-weight: bold;
     margin-top: -2em;
+    transition: 0.5s;
 }
+
+.butao-participe:hover {
+    background-color: #107696;
+}
+
+.mais-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.mais-infos img {
+    width: 2em;
+    animation: float 1s ease-in-out infinite;
+}
+
+@keyframes float{
+	0%,100%{
+		transform:translatey(0)
+	}
+	50%{
+		transform:translatey( 10px)
+	}
+}
+
