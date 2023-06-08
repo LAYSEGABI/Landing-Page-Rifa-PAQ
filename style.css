@@ -1,3 +1,9 @@
+@import url('styles/header.css');
+@import url('styles/banner.css');
+@import url('styles/ticket.css');
+@import url('styles/especificacoes.css');
+@import url('styles/paq.css');
+
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap');
 
 
@@ -39,129 +45,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-/* header----------------------------------*/
-
-.header {
-    background-color: rgb(63, 149, 219);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0.6em 2em;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-}
-.logo-paq {
-    width: 3em;
-}
-
-.img-insta {
-    width: 2em;
-}
-
-.nav {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    text-shadow: 0px 4px 4px rgba(34, 33, 33, 0.25);
-}
-
-.butao-participe-header {
-    text-decoration: none;
-    border-radius: 10px;
-    padding: 0.9em 1.6em;
-    color: white;
-    font-weight: bold;
-    background-color: #0c0c2c;
-}
-
-/* banner--------------------------------*/
-
-.banner {
-    display: flex;
-    background: url('img/honeycomb_volume_iron_167098_3840x2160\ 1.png');
-    height: 90vh;
-}
-
-.banner-conteudo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2em;
-    align-items: center;
-    gap: auto;
-}
-
-.titulo-descricao {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 80%;
-    text-align: center;
-    margin-top: 2em;
-}
-.titulo-descricao h1 {
-    font-size: 2em;
-}
-.destaque {
-    color: #08A0D0;
-}
-
-.titulo-descricao p {
-    color: rgba(240, 255, 255, 0.856);
-}
-
-.banner-conteudo img {
-    width: 100%;
-}
-
-.butao-participe {
-    text-decoration: none;
-    background-color: #08A0D0;
-    border-radius: 15px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 0.7em 1.6em;
-    color: white;
-    font-size: 1.4em;
-    font-weight: bold;
-    margin-bottom: 1em;
-    transition: 0.5s;
-}
-
-.butao-participe:hover {
-    background-color: #107696;
-}
-
-.mais-infos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.mais-infos img {
-    width: 2em;
-    animation: float 1s ease-in-out infinite;
-}
-
-@keyframes float{
-	0%,100%{
-		transform:translatey(0)
-	}
-	50%{
-		transform:translatey( 10px)
-	}
-}
-
-.butao-whats {
-    animation: float 1s ease-in-out infinite;
-}
 
 
 /* ticket --------------------*/

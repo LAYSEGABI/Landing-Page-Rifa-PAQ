@@ -1,0 +1,96 @@
+/* banner--------------------------------*/
+
+.banner {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    background: url('img/honeycomb_volume_iron_167098_3840x2160\ 1.png');
+}
+
+.banner-conteudo {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    align-items: center;
+    gap: 20px;
+}
+
+.titulo-descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 82%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.titulo-descricao h1 {
+    font-size: 2em;
+}
+
+.destaque {
+    color: #08A0D0;
+}
+
+.titulo-descricao p {
+    color: rgba(240, 255, 255, 0.856);
+}
+
+.banner-conteudo img {
+    width: 100%;
+}
+
+.butao-participe {
+    text-decoration: none;
+    background-color: #08A0D0;
+    border-radius: 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.7em 1.6em;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    transition: 0.5s;
+}
+
+.butao-participe:hover {
+    background-color: #107696;
+}
+
+.mais-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.mais-infos img {
+    width: 2em;
+    animation: float 1s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translatey(0)
+    }
+
+    50% {
+        transform: translatey(10px)
+    }
+}
+
+.butao-whats {
+    animation: float 1s ease-in-out infinite;
+}
+
+
+@media (max-width: 350px) {
+    .titulo-descricao h1 {
+        font-size: 1.6em;
+    }
+}
