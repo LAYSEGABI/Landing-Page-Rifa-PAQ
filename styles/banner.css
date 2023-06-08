@@ -4,7 +4,7 @@
     display: flex;
     text-align: center;
     width: 100%;
-    background: url('img/honeycomb_volume_iron_167098_3840x2160\ 1.png');
+    background: url('../img/back-banner.png');
 }
 
 .banner-conteudo {
@@ -72,6 +72,10 @@
     animation: float 1s ease-in-out infinite;
 }
 
+.img-desktop {
+    display: none;
+}
+
 @keyframes float {
 
     0%,
@@ -93,4 +97,54 @@
     .titulo-descricao h1 {
         font-size: 1.6em;
     }
+}
+
+@media (min-width: 600px) {
+
+    .img-desktop {
+        display: block;
+        width: 70vw;
+        height: 60%;
+    }
+
+    .img-mobile {
+        display: none;
+    }
+
+    .titulo-descricao h1 {
+        font-size: 4em;
+    }
+    
+}
+
+
+@media (min-width: 1000px) {
+
+    .img-desktop {
+        display: block;
+        height: 60%;
+        padding: 0 10em;
+    }
+
+    .banner-conteudo {
+        gap: 10px;
+    }
+
+    .header {
+        display: none;
+        height: 90vh;
+    }
+
+    .img-mobile {
+        display: none;
+    }
+
+    .titulo-descricao {
+        margin-top: 1em;
+    }
+
+    .titulo-descricao h1 {
+        font-size: 3em;
+    }
+    
 }
