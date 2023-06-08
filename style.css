@@ -46,19 +46,24 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0.5em 2em;
+    padding: 0.6em 2em;
     align-items: center;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     margin-top: -5px;
+    text-align: center;
 }
 .logo-paq {
     width: 3em;
 }
 
+.img-insta {
+    width: 2em;
+}
+
 .nav {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -75,6 +80,7 @@ body::-webkit-scrollbar-thumb {
     padding: 0.7em;
     color: white;
     font-weight: bold;
+    background-color: #0C0C18;
 }
 
 /* banner--------------------------------*/
@@ -96,11 +102,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 .titulo-descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 80%;
+    text-align: center;
+    margin-top: 2em;
+}
+.titulo-descricao h1 {
+    font-size: 2em;
+}
+.destaque {
+    color: #08A0D0;
 }
 
-.titulo-descricao span {
-    color: #08A0D0;
+.titulo-descricao p {
+    color: rgba(240, 255, 255, 0.856);
 }
 
 .banner-conteudo img {
@@ -116,6 +133,7 @@ body::-webkit-scrollbar-thumb {
     color: white;
     font-size: 1.4em;
     font-weight: bold;
+    margin-bottom: 1em;
     margin-top: -2em;
     transition: 0.5s;
 }
@@ -149,3 +167,49 @@ body::-webkit-scrollbar-thumb {
     animation: float 1s ease-in-out infinite;
 }
 
+
+/* ticket --------------------*/
+
+.ticket {
+    display: flex;
+    border: solid 1px white;
+    margin: 2em;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.ticket-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ticket-segundo {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4em;
+    gap: 20px;
+}
+
+.ticket-segundo-imgs {
+    display: flex;
+}
+
+.ticket-segundo-imgs img {
+    width: 60%;
+}
+
+.ticket-butao-participe {
+    text-decoration: none;
+    background-color: #08A0D0;
+    border-radius: 5px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.3em ;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.ticket-logo-img {
+    width: 1em;
+}
