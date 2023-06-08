@@ -46,3 +46,9 @@ body::-webkit-scrollbar-thumb {
 
 
 
+footer {
+    background-color: rgb(62, 169, 231);
+    padding: 1em;
+    text-align: center;
+    margin-top: 2em;
+}

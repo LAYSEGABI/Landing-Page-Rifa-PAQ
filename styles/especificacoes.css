@@ -1,12 +1,14 @@
 .especificacoes {
     display: flex;
     flex-direction: column;
+    margin-top: 4em;
 }
 
 .titulo {
-    color: rgb(27, 25, 32);
+    color: rgb(32, 28, 43);
     background-color: rgb(27, 204, 248);
     padding: 0.5em;
+    text-align: center;
 }
 
 .especificacoes-conteudo {
@@ -37,9 +39,5 @@
 
 @media (min-width: 600px) {
 
-    .img-not {
-        display: block;
-        width: 100%;
-    }
-
+    
 }
