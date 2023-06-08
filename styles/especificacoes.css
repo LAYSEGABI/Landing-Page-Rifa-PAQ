@@ -1,0 +1,45 @@
+.especificacoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    color: rgb(27, 25, 32);
+    background-color: rgb(27, 204, 248);
+    padding: 0.5em;
+}
+
+.especificacoes-conteudo {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5em;
+}
+
+.img-not {
+    display: none;
+}
+
+.especificacoes-conteudo img {
+    width: 10%;
+
+}
+
+.infos-notebook {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+    gap: 20px;
+}
+
+.infos-notebook img {
+    width: 1.7em;
+}
+
+@media (min-width: 600px) {
+
+    .img-not {
+        display: block;
+        width: 100%;
+    }
+
+}
